@@ -1,0 +1,66 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0e6d2;
+  font-family: system-ui, Arial, sans-serif;
+  color: #2b2b2b;
+}
+
+.card {
+  width: 320px;
+  background: #fff;
+  padding: 28px 26px 22px;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 22px;
+  color: #b5651d;
+}
+
+label {
+  display: block;
+  margin: 12px 0 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 11px;
+  border: 0;
+  border-radius: 6px;
+  background: #b5651d;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover { background: #99541a; }
+
+.message {
+  min-height: 20px;
+  margin: 16px 0 0;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.message.error { color: #c0392b; }
+.message.success { color: #1e8449; }
